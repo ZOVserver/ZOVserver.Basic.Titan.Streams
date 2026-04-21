@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="ZOVserver.Basic.Titan.Streams.Benchmarks\ZOVserver.Basic.Titan.Streams.Benchmarks.csproj" Type="Classic C#" />
+  <Project Path="ZOVserver.Basic.Titan.Streams.Tests\ZOVserver.Basic.Titan.Streams.Tests.csproj" Type="Classic C#" />
+  <Project Path="ZOVserver.Basic.Titan.Streams\ZOVserver.Basic.Titan.Streams.csproj" Type="Classic C#" />
+</Solution>
