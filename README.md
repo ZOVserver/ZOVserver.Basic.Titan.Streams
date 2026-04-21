@@ -14,14 +14,6 @@ Brawl-Stars-Protokoll - gebaut fuer Speed und minimale Speicherfussabdruecke.
 
 Gemacht mit BenchmarkDotNet.
 
-### Memory & Allocation
-
-| Methode                         | Mean       | Error     | StdDev    |   Gen0 | Allocated |
-|:--------------------------------|------------|-----------|-----------|-------:|----------:|
-| Allocation_ReuseStream          | 72,951 ns  | 1,3273 ns | 0,6942 ns | 0,0070 |      40 B |
-| Allocation_NewStreamEachWrite   | 110,302 ns | 4,5978 ns | 3,0411 ns | 0,0150 |      80 B |
-| Scenario_ExpandBuffer_FromSmall | 2,737 ns   | 0,1249 ns | 0,0743 ns | 0,0006 |       3 B |
-
 ### ByteStream - Lobby & Data Serialization
 
 | Methode                                   | Mean           | Error         | StdDev        |    Gen0 | Allocated | Code Size |
